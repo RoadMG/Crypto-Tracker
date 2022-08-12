@@ -195,7 +195,7 @@ const Coin = () => {
         <Loader>Loading...</Loader>
       ) : (
         <>
-          <Link to="/">
+          <Link to="/Crypto-Tracker">
             <Button>
               <ArrowBackIosNewIcon />
             </Button>

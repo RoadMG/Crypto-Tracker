@@ -105,7 +105,7 @@ const Coins = () => {
         <CoinList>
           {data?.slice(0, 100).map((coin) => (
             <Coin key={coin.id}>
-              <Link to={`/${coin.id}`} state={coin}>
+              <Link to={`/Crypto-Tracker/${coin.id}`} state={coin}>
                 <Img
                   src={`https://coinicons-api.vercel.app/api/icon/${coin.symbol.toLowerCase()}`}
                 />
